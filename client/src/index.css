@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray;
+}
+
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.active{
+  border-bottom: 1px solid #000;
+}
+
+
+.navbar-brand{
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family:  sans-serif;
+  font-size: 25px;
+}
+
+.footer{
+  padding: 25px;
+  color: white;
+  background: black;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+
+  );
+  background: linear-gradient(to right,#434343,
+  #000000 );
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 188px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.pnf-btn{
+  color: #000;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pnf-btn:hover{
+  background-color: tomato;
+  font-weight: bold;
+}
+
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+.register h1{
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
